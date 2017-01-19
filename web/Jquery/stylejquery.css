@@ -1,0 +1,45 @@
+.radiant_scroller {
+    margin: 50px;
+}
+.radiant_scroller_wrapper {
+    background-color: #ccc;
+}
+.radiant_scroller .scroller-el {
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.radiant_scroller .radiant-next, .radiant_scroller .radiant-prev {
+    bottom: -13px;
+    width: 21px;
+    height: 43px;
+}
+.radiant_scroller .radiant-next {
+    right: -42px;
+    top: 384px;
+    background-position: 0 -43px;
+}
+.radiant_scroller .radiant-prev {
+    left: -42px;
+    top: 384px;
+    background-position: 0 0;
+}
+.radiant_scroller .radiant-pagination {
+    text-align: center;
+    margin-top: 7px;
+}
+.radiant_scroller .radiant-pagination .radiant-page {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+.radiant_scroller .radiant-pagination .radiant-page:hover {
+    background-color: #efefef;
+}
+.radiant_scroller .radiant-pagination .current-page {
+    background-color: #808080;
+    border-color: #888;
+}
